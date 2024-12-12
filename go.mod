@@ -19,7 +19,7 @@ require (
 	github.com/NYTimes/gziphandler v1.1.1
 	github.com/UserExistsError/conpty v0.1.3
 	github.com/ajstarks/svgo v0.0.0-20210923152817-c3b6e2f0c527
-	github.com/aws/aws-sdk-go v1.30.15
+	github.com/aws/aws-sdk-go v1.34.0
 	github.com/bradfitz/go-smtpd v0.0.0-20170404230938-deb6d6237625
 	github.com/creack/pty v1.1.20
 	github.com/davecgh/go-spew v1.1.1
@@ -38,8 +38,8 @@ require (
 	github.com/gregjones/httpcache v0.0.0-20180305231024-9cad4c3443a7
 	github.com/grpc-ecosystem/go-grpc-middleware v1.0.1-0.20190118093823-f849b5445de4
 	github.com/influxdata/influxdb-client-go/v2 v2.8.0
-	github.com/jackc/pgconn v1.11.0
-	github.com/jackc/pgx/v4 v4.13.0
+	github.com/jackc/pgconn v1.14.3
+	github.com/jackc/pgx/v4 v4.18.3
 	github.com/jellevandenhooff/dkim v0.0.0-20150330215556-f50fe3d243e1
 	github.com/julienschmidt/httprouter v1.3.0
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51
@@ -52,23 +52,23 @@ require (
 	go.chromium.org/luci v0.0.0-20240207061751-3ff7b3e74e1c
 	go.opencensus.io v0.24.0
 	go4.org v0.0.0-20180809161055-417644f6feb5
-	golang.org/x/crypto v0.24.0
+	golang.org/x/crypto v0.31.0
 	golang.org/x/exp v0.0.0-20230809094429-853ea248256d
-	golang.org/x/image v0.17.0
+	golang.org/x/image v0.18.0
 	golang.org/x/mod v0.18.0
 	golang.org/x/net v0.26.0
 	golang.org/x/oauth2 v0.21.0
 	golang.org/x/perf v0.0.0-20230717203022-1ba3a21238c9
-	golang.org/x/sync v0.7.0
-	golang.org/x/sys v0.21.0
-	golang.org/x/term v0.21.0
+	golang.org/x/sync v0.10.0
+	golang.org/x/sys v0.28.0
+	golang.org/x/term v0.27.0
 	golang.org/x/time v0.5.0
 	golang.org/x/tools v0.22.0
 	google.golang.org/api v0.136.0
 	google.golang.org/appengine v1.6.8-0.20221117013220-504804fb50de
 	google.golang.org/genproto/googleapis/api v0.0.0-20230822172742-b8732ec3820d
 	google.golang.org/grpc v1.59.0
-	google.golang.org/protobuf v1.31.0
+	google.golang.org/protobuf v1.33.0
 	gopkg.in/inf.v0 v0.9.1
 	rsc.io/github v0.3.1-0.20240418182958-01bebb0c456a
 	rsc.io/markdown v0.0.0-20240306144322-0bf8f97ee8ef
@@ -119,10 +119,10 @@ require (
 	github.com/jackc/pgerrcode v0.0.0-20201024163028-a0d42d470451 // indirect
 	github.com/jackc/pgio v1.0.0 // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
-	github.com/jackc/pgproto3/v2 v2.2.0 // indirect
-	github.com/jackc/pgservicefile v0.0.0-20200714003250-2b9c44734f2b // indirect
-	github.com/jackc/pgtype v1.8.1 // indirect
-	github.com/jackc/puddle v1.1.3 // indirect
+	github.com/jackc/pgproto3/v2 v2.3.3 // indirect
+	github.com/jackc/pgservicefile v0.0.0-20221227161230-091c0ba34f0a // indirect
+	github.com/jackc/pgtype v1.14.0 // indirect
+	github.com/jackc/puddle v1.3.0 // indirect
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/klauspost/asmfmt v1.3.2 // indirect
 	github.com/klauspost/compress v1.16.7 // indirect
@@ -153,7 +153,7 @@ require (
 	go.opentelemetry.io/otel/metric v1.21.0 // indirect
 	go.opentelemetry.io/otel/trace v1.21.0 // indirect
 	go.uber.org/atomic v1.10.0 // indirect
-	golang.org/x/text v0.16.0 // indirect
+	golang.org/x/text v0.21.0 // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 	gonum.org/v1/plot v0.10.0 // indirect
 	google.golang.org/genproto v0.0.0-20230822172742-b8732ec3820d // indirect
